@@ -1,0 +1,42 @@
+# Pygame build process: config.py setup.py
+/PyGameTutorial/Setup
+*.pyc
+/PyGameTutorial/build/
+/PyGameTutorial/src_py/version.py
+
+# Windows prebuilt external libraries
+/PyGameTutorial/prebuilt-x??
+/PyGameTutorial/prebuilt_downloads
+
+# Sphinx generated files: makeref.py
+/PyGameTutorial/docs/generated
+
+# Emacs temporary files
+*~
+
+# VIM temporary files
+*.swp
+
+# Visual Studio cache/config directory
+.vs/
+
+# Visual Studio Code cache/config directory
+.vscode/
+
+# PyCharm cache/config directory
+.idea/
+
+# mypy
+.mypy_cache/
+
+# Other
+envdev*
+.virtualenv*
+buildconfig/manylinux-build/wheelhouse/
+anenv
+dist
+.vagrant
+*.egg-info/
+*.so
+__pycache__
+_headers/*
